@@ -1,0 +1,487 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #2F303A;
+    font-family: arial;
+}
+#header{
+    display: flex;
+}
+#headerside{
+    background-color:#F59494;
+    display: none;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+#headerh{
+    color: #FDFDFD;
+    margin: 20px 20px;
+    font-size: 30px;
+}
+#headeru{
+    list-style: none;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 25px;
+}
+#headeruside{
+    list-style: none;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: none;
+}
+#headerl a{
+    text-decoration:none;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 5px 9px;
+    font-size: 18px;
+}
+#headerlside{
+    padding: 15px 20px;
+}
+ #headerlside a{
+    text-decoration:none;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 10px 1px;
+    font-size: 19px;
+}
+#headerl{
+    float: left;
+    padding: 25px 10px;
+}
+#header2{
+    float: left;
+    padding: 15px 10px;
+}
+#active{
+         background-color: #FDFDFD;
+         color:#2F303A ;
+         border: 0px solid #FDFDFD;
+         border-radius: 2px;
+        
+}
+#activeside{
+    background-color: #FDFDFD;
+    color:#2F303A ;
+    border: 0px solid #FDFDFD;
+    border-radius: 2px;
+   
+}
+.hover{
+    color:#FDFDFD ;
+}
+.hoverside{
+    color:#FDFDFD ;
+    padding: 8px 30px;
+}
+.hover:hover{
+    background-color: #FDFDFD;
+    color: #2F303A;
+    transition: 0.5s;
+    border: 0px solid #FDFDFD;
+    border-radius: 2px;
+}
+.hoverside:hover{
+    background-color: #FDFDFD;
+    color: #2F303A;
+    transition: 0.5s;
+    border: 0px solid #FDFDFD;
+    border-radius: 2px;
+}
+.icon{
+    display: none;
+}
+#ambu{
+    display: flex;
+}
+#ambusize{
+    height: 250px;
+    width: 450px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 70px;
+}
+#ambup{
+    color: #FDFDFD;
+    margin-left: 80px;
+    margin-top:30px;
+}
+#patient{
+    background-color: #FDFDFD;
+    width:300px;
+    float: right;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 10px;
+   
+}
+#detailsh{
+    font-size: 25px;
+    text-align: center;
+    padding-top:10px ;
+}
+#detailsp{
+    text-align: center;
+    font-size: 13px;
+
+
+}
+#input{
+    text-align: center;
+    margin-top: 20px;
+}
+#inputbx{
+                margin-top: 15px;
+}
+ input.inputtext {
+    width: 80%;
+    background-color: rgb(239, 243, 253);
+   box-shadow: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-bottom:7px;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 300px;
+    color:black;
+    border-bottom: 2.4px solid #F59494;
+}
+input#btn{
+    width: 80%;
+    background-color: #F59494;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-bottom:7px;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#tabled{
+    margin-top: 23px;
+    text-align: center;
+    
+}
+#table{
+    color: black;
+    text-align: center;
+    width: 86%;
+    border-collapse: collapse;
+    margin: 0% 7%;
+    padding-top: 0px;
+}
+#tabletr1{
+    background-color:#F59494;
+}
+#tabletr1 th{
+    background-color:#F59494;
+}
+#tabled td:nth-child(odd){
+    background-color: #f2f2f2;
+}
+#tabled td:nth-child(even){
+    background-color:#D3D9E0;
+}
+#tabletr2{
+    background-color: #D3D9E0;
+}
+#tabletdname{
+    text-align:left;
+    padding-left: 5.3%;
+}
+@media (max-width:1000px){
+    #headerh{
+        font-size: 28px;
+    }
+    #headerl a{
+        padding: 4px 5px;
+        font-size: 17px;
+    }
+    #headerl{
+        padding: 27px 8px;
+    }
+    #ambusize{
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    #ambup{
+        margin-left: 70px;
+        margin-top:20px;
+        padding-right: 30px;
+    }
+    #patient{
+        margin-right: 70px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:850px){
+    #headerside{
+        display: none;
+    }
+}
+@media (max-width:850px){
+    
+        .icon{
+        display: block;
+        margin-left: 60%;
+        margin-right: 1%;
+        }
+        #bar{
+            display: flex;
+            height:  70px;
+            width: 100%;
+        }
+
+        #header a.hover{
+            display: none;
+        }
+        #header a#active{
+            display: none;
+        }
+        #header a.profile{
+            display: none;
+        }
+        #header{
+            display: block;
+        }
+      
+    #headerl a{
+        padding: 4px 5px;
+        font-size: 17px;
+    }
+    #headerl{
+        padding: 28px 7px;
+    }
+    #activeside{
+        margin-right:7% ;
+    }
+    #ambu{
+       display: block;
+    }
+    #ambud{
+        display: flex;
+    }
+    #ambusize{
+        padding-top: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #ambup{
+        margin-left: 40px;
+        margin-top:100px;
+    }
+    #patient{
+        width:80%;
+        margin: 10% 10%;
+        margin-top: 35px;
+    }
+  
+    #table{
+        width: 80%;
+        border-collapse: collapse;
+        margin: 2% 10%;
+        font-size: 14px;
+    }
+}
+@media (max-width:780px){
+    #ambusize{ 
+        height: 55%;
+        width: 60%;
+    }
+}
+@media (max-width:710px){
+    .icon{
+        margin-left: 50%;
+        margin-right: 1%;
+    }
+    #ambusize{
+        padding-top: 60px;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    #ambup{
+        margin-left: 40px;
+        margin-top:80px;
+    }
+}
+@media (max-width:700px){
+    #ambusize{ 
+        height: 170px;
+        width: 300px;
+    }
+    #ambup{
+        font-size: 14px;
+    }
+}
+@media (max-width:610px){
+    #ambup{
+        margin-top:70px;
+    }
+    #activeside{
+        margin-right:60px ;
+    }
+}
+@media (max-width:600px){
+    #ambusize{ 
+        height: 170px;
+        width: 300px;
+    }
+    #activeside{
+        margin-right:60px ;
+    }
+    #activeside{
+        margin-right:6% ;
+    }
+    #ambup{
+        font-size: 12px;
+    }
+}
+@media (max-width:587px){
+    #ambusize{ 
+        height: 160px;
+        width: 280px;
+    }
+}
+@media (max-width:570px){
+    #ambusize{ 
+        height: 150px;
+        width: 270px;
+    }
+    #ambup{
+        font-size: 12px;
+    }
+    .icon{
+        margin-left: 40%;
+        margin-right: 1%;
+    }
+}
+@media (max-width:555px){
+    #ambusize{ 
+        height: 140px;
+        width: 260px;
+        padding-top: 70px;
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+    #ambup{
+        font-size: 12px;
+        margin-top:60px;
+    }
+}
+@media (max-width:537px){
+    #ambusize{ 
+        height: 120px;
+        width: 250px;
+        padding-top: 100px;
+        margin-left: 1px;
+    }
+    #ambup{
+        font-size: 11px;
+    }
+    #headerh{
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width:540px){
+    #ambud{
+        display: block;
+    }
+    #headerh{
+        font-size: 25px;
+    }
+    #ambusize{
+        height: 45%;
+        width: 80%;
+        padding-top:10%;
+        padding-right: 10%;
+        padding-left: 30px;
+    } 
+    #ambup{
+        margin-left: 40px;
+        margin-top:60px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    #table{
+        width: 80%;
+        border-collapse: collapse;
+        margin: 4% 10%;
+        font-size: 13px;
+
+    }
+}
+@media (max-width:475px){
+    .icon{
+        margin-left: 30%;
+        margin-right: 1%;
+    }
+    #headerh{
+        font-size: 24px;
+    }
+    #activeside{
+        margin-right:40px ;
+    }
+}
+@media (max-width:408px){
+    #table{
+        font-size: 11px;
+
+    }
+    .icon{
+        margin-left: 25%;
+        margin-right: 1%;
+    }
+    #headerh{
+        font-size: 24px;
+    }
+}
+@media (max-width:384px){
+    .icon{
+        margin-left: 20%;
+        margin-right: 1%;
+    }
+    #headerh{
+        font-size: 23px;
+    }
+}
+@media (max-width:359px){
+    .icon{
+        margin-left: 15%;
+        margin-right: 1%;
+    }
+}
+@media (max-width:340px){
+    .icon{
+        margin-left: 10%;
+        margin-right: 1%;
+    }
+}
+@media (max-width:321px){
+    .icon{
+        margin-left: 5%;
+        margin-right: 1%;
+    }
+}
+@media (max-width:350px){
+    #table{
+        font-size: 9px;
+    }
+    #activeside{
+        margin-right:50px ;
+    }
+}
